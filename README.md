@@ -61,7 +61,7 @@ ena-rag-assistant/
 
 ### 2️⃣ Cloner le dépôt
 
-git clone https://github.com/votre-username/ena-rag-assistant.git
+git clone https://github.com/Abderrazekk/ENA-RAG-Assistant.git
 cd ena-rag-assistant
 
 3️⃣ Créer un environnement virtuel
