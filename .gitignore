@@ -1,0 +1,64 @@
+# Environnement virtuel
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Variables d'environnement (contient la clé API)
+.env
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Index vectoriel (volumineux, à regénérer localement)
+storage/
+chroma_db/
+
+# Données PDF (à exclure si confidentielles, sinon garder)
+# data/*.pdf
+# data/
+
+# Fichiers de configuration IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs et bases de données temporaires
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# Fichiers de test
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Fichiers de configuration locaux
+*.local
+*.local.*
